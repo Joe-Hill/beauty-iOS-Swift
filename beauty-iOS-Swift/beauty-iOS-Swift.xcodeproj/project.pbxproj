@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15F044DB3447C430E5E19FFE /* Pods_beauty_iOS_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C289308D4EB0CCC4AAD4D0F8 /* Pods_beauty_iOS_Swift.framework */; };
+		D8B6F1C21E66C6D90018C018 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B6F1C11E66C6D90018C018 /* AppDelegate.swift */; };
+		D8B6F1C41E66C6D90018C018 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B6F1C31E66C6D90018C018 /* ViewController.swift */; };
+		D8B6F1C71E66C6D90018C018 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B6F1C51E66C6D90018C018 /* Main.storyboard */; };
+		D8B6F1C91E66C6D90018C018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B6F1C81E66C6D90018C018 /* Assets.xcassets */; };
+		D8B6F1CC1E66C6D90018C018 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B6F1CA1E66C6D90018C018 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5717D2887ECA27049FE8896F /* Pods-beauty-iOS-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beauty-iOS-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-beauty-iOS-Swift/Pods-beauty-iOS-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		BD99E3FB83A39DD45F54D477 /* Pods-beauty-iOS-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beauty-iOS-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-beauty-iOS-Swift/Pods-beauty-iOS-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		C289308D4EB0CCC4AAD4D0F8 /* Pods_beauty_iOS_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_beauty_iOS_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8B6F1BE1E66C6D90018C018 /* beauty-iOS-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "beauty-iOS-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8B6F1C11E66C6D90018C018 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8B6F1C31E66C6D90018C018 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8B6F1C61E66C6D90018C018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8B6F1C81E66C6D90018C018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8B6F1CB1E66C6D90018C018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8B6F1CD1E66C6D90018C018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8B6F1BB1E66C6D90018C018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15F044DB3447C430E5E19FFE /* Pods_beauty_iOS_Swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8B6F1B51E66C6D90018C018 = {
+			isa = PBXGroup;
+			children = (
+				D8B6F1C01E66C6D90018C018 /* beauty-iOS-Swift */,
+				D8B6F1BF1E66C6D90018C018 /* Products */,
+				F0B9FA4566390F5ABE71CB48 /* Pods */,
+				EC089BFE301A384767F1F27A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D8B6F1BF1E66C6D90018C018 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8B6F1BE1E66C6D90018C018 /* beauty-iOS-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8B6F1C01E66C6D90018C018 /* beauty-iOS-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				D8B6F1C11E66C6D90018C018 /* AppDelegate.swift */,
+				D8B6F1C31E66C6D90018C018 /* ViewController.swift */,
+				D8B6F1C51E66C6D90018C018 /* Main.storyboard */,
+				D8B6F1C81E66C6D90018C018 /* Assets.xcassets */,
+				D8B6F1CA1E66C6D90018C018 /* LaunchScreen.storyboard */,
+				D8B6F1CD1E66C6D90018C018 /* Info.plist */,
+			);
+			path = "beauty-iOS-Swift";
+			sourceTree = "<group>";
+		};
+		EC089BFE301A384767F1F27A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C289308D4EB0CCC4AAD4D0F8 /* Pods_beauty_iOS_Swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0B9FA4566390F5ABE71CB48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5717D2887ECA27049FE8896F /* Pods-beauty-iOS-Swift.debug.xcconfig */,
+				BD99E3FB83A39DD45F54D477 /* Pods-beauty-iOS-Swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8B6F1BD1E66C6D90018C018 /* beauty-iOS-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8B6F1D01E66C6D90018C018 /* Build configuration list for PBXNativeTarget "beauty-iOS-Swift" */;
+			buildPhases = (
+				5B82395B169163BABC835606 /* [CP] Check Pods Manifest.lock */,
+				D8B6F1BA1E66C6D90018C018 /* Sources */,
+				D8B6F1BB1E66C6D90018C018 /* Frameworks */,
+				D8B6F1BC1E66C6D90018C018 /* Resources */,
+				A87661B4F4195B1777E8401F /* [CP] Embed Pods Frameworks */,
+				B6EF8E11FC4BD7D30233D079 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "beauty-iOS-Swift";
+			productName = "beauty-iOS-Swift";
+			productReference = D8B6F1BE1E66C6D90018C018 /* beauty-iOS-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8B6F1B61E66C6D90018C018 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Joe;
+				TargetAttributes = {
+					D8B6F1BD1E66C6D90018C018 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D8B6F1B91E66C6D90018C018 /* Build configuration list for PBXProject "beauty-iOS-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8B6F1B51E66C6D90018C018;
+			productRefGroup = D8B6F1BF1E66C6D90018C018 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8B6F1BD1E66C6D90018C018 /* beauty-iOS-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8B6F1BC1E66C6D90018C018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B6F1CC1E66C6D90018C018 /* LaunchScreen.storyboard in Resources */,
+				D8B6F1C91E66C6D90018C018 /* Assets.xcassets in Resources */,
+				D8B6F1C71E66C6D90018C018 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B82395B169163BABC835606 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A87661B4F4195B1777E8401F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-beauty-iOS-Swift/Pods-beauty-iOS-Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6EF8E11FC4BD7D30233D079 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-beauty-iOS-Swift/Pods-beauty-iOS-Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8B6F1BA1E66C6D90018C018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B6F1C41E66C6D90018C018 /* ViewController.swift in Sources */,
+				D8B6F1C21E66C6D90018C018 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D8B6F1C51E66C6D90018C018 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8B6F1C61E66C6D90018C018 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8B6F1CA1E66C6D90018C018 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8B6F1CB1E66C6D90018C018 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8B6F1CE1E66C6D90018C018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8B6F1CF1E66C6D90018C018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8B6F1D11E66C6D90018C018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5717D2887ECA27049FE8896F /* Pods-beauty-iOS-Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "beauty-iOS-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.joehill.beauty-iOS-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D8B6F1D21E66C6D90018C018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD99E3FB83A39DD45F54D477 /* Pods-beauty-iOS-Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "beauty-iOS-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.joehill.beauty-iOS-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8B6F1B91E66C6D90018C018 /* Build configuration list for PBXProject "beauty-iOS-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8B6F1CE1E66C6D90018C018 /* Debug */,
+				D8B6F1CF1E66C6D90018C018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8B6F1D01E66C6D90018C018 /* Build configuration list for PBXNativeTarget "beauty-iOS-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8B6F1D11E66C6D90018C018 /* Debug */,
+				D8B6F1D21E66C6D90018C018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8B6F1B61E66C6D90018C018 /* Project object */;
+}
